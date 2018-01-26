@@ -35,9 +35,9 @@ Data options:
           In CSV two extra columns are inserted for the scope names of tables and records.
           In JSON the scope name is printed with the id, separated by a colon (:).
 Format options:
-          The default format (no C, J or V switch) is to print a summary of the data.
+          The default format (no C or J switch) is to print a summary of the data.
           This is a useful starting point for exploring the data and deciding which table to export.
-          If a combination of C, J and V is found, the lattermost option prevails.
+          If both C and J are found, the lattermost option prevails.
 -C        Prints CSV format. The default delimiter is a semicolon (;). All strings are double-quoted.
 -comma    Sets the CSV delimiter to a comma (,). Used together with the -C switch, otherwise ignored.
 -colon    Sets the CSV delimiter to a colon (:). Used together with the -C switch, otherwise ignored.
