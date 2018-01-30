@@ -1,4 +1,4 @@
-# demork
+# php-demork
 demork is a PHP script that parses a Mork database file and prints the data. It's not bulletproof, but works well for my limited purposes.
 
 ## Background
